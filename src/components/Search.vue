@@ -19,7 +19,7 @@
     align-items: center
     min-width: 475px
     height: 62px
-    padding-left: 15px
+    padding-left: 30px
     padding-right: 4px
     border-radius: 31px
     background-color: #ffffff
@@ -31,6 +31,8 @@
     font-family: 'Cabin'
     font-size: 19px
     line-height: normal
+    flex-grow: 1
+    margin-left: 20px
     border: none
     outline: none
     &::placeholder

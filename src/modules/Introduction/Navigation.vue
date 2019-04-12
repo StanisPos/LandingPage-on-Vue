@@ -1,5 +1,5 @@
 <template lang="pug">
-  .navigation__wrapper
+  header.navigation__wrapper
     Logo
     nav.header__navigation
       ul.header__navigation-list
@@ -39,6 +39,7 @@
     display: flex
     justify-content: space-between
     align-items: center
+    margin-bottom: 150px
   .header__navigation
     min-width: 390px
   .header__navigation-list

@@ -1,8 +1,10 @@
 <template lang="pug">
-  header
-    .wrapper__header  
+  section
+    .introduction__wrapper  
       Navigation
       Content
+      Footer
+    .introduction__footer-wrapper
 
 
 

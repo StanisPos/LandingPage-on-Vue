@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <Introduction />
-    <Content />
-    <Footer />
+    <Started />
+    <Payments />
+    <Hospital />
     <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -14,16 +15,18 @@
 // @ is an alias to /src
 import Fonts from '@/components/Fonts'
 import Introduction from '@/modules/Introduction'
-import Content from '@/modules/Content'
-import Footer from '@/modules/Footer'
+import Started from '@/modules/Started'
+import Payments from '@/modules/Payments'
+import Hospital from '@/modules/Hospital'
 
 export default {
   name: 'basic-template',
   components:{
     Fonts,
     Introduction,
-    Content,
-    Footer
+    Started,
+    Payments,
+    Hospital
   }
 }
 </script>
